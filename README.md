@@ -154,6 +154,13 @@ Handle your app's state with Pinia for clean, organized code.
 
 ## Update Logs
 
+### Version 2.0.2 - [December 30, 2025]
+
+#### Enhancements
+
+- Added date range picker to Statistics Chart component.
+- Improved responsive design for chart header.
+
 ### Version 2.0.1 - [February 27, 2025]
 
 #### Update Overview
