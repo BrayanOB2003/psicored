@@ -3,12 +3,14 @@ layer(base);
 
 @import 'tailwindcss';
 
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
 @custom-variant dark (&:is(.dark *));
 
 @theme {
   --font-*: initial;
   --font-outfit: Outfit, sans-serif;
-
+  --font-mplus-rounded: 'M PLUS Rounded 1c', sans-serif;
   --breakpoint-*: initial;
   --breakpoint-2xsm: 375px;
   --breakpoint-xsm: 425px;
