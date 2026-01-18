@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-import AppSidebar from './AppSidebarComponents.vue'
+import AppSidebar from './AppSidebar.vue'
 import AppHeader from './AppHeader.vue'
 import { useSidebar } from '@/composables/useSidebar'
 import Backdrop from './Backdrop.vue'

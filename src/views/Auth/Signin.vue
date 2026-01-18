@@ -124,7 +124,7 @@
         >
           <div class="flex items-center justify-center z-1">
             <common-grid-shape />
-            <Logo />
+            <Logo :dark-mode="false"/>
           </div>
         </div>
       </div>

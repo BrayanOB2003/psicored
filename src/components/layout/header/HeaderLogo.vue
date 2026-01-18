@@ -1,10 +1,10 @@
 <template>
   <router-link to="/" class="lg:hidden">
-    <img class="dark:hidden" src="/images/logo/logo.svg" alt="Logo" />
-    <img class="hidden dark:block" src="/images/logo/logo-dark.svg" alt="Logo" />
+    <logo size="extra-small" dark-mode="true"/>
   </router-link>
 </template>
 
 <script setup>
+import Logo from '@/components/ui/Logo.vue';
 import { RouterLink } from 'vue-router'
 </script>
